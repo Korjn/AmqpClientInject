@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- nuget -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackRelease>true</PackRelease>
+    <PublishRelease>true</PublishRelease>
+    <PackageId>Korjn.AmqpClientInject</PackageId>
+    <Authors>Saken</Authors>
+    <Version>9.0.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AMQPNetLite.Core" Version="2.4.11" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.3" PrivateAssets="none" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.3" PrivateAssets="none" />
+  </ItemGroup>
+
+
+</Project>
