@@ -6,8 +6,7 @@ using Amqp.Sasl;
 
 namespace Korjn.AmqpClientInject;
 
-internal class AmqpClient(ILogger<IAmqpClient> logger,
-                  ConnectionOptions options) : IAmqpClient, IDisposable
+internal class AmqpClient(ILogger<IAmqpClient> logger, ConnectionOptions options) : IAmqpClient, IDisposable
 {
     private Connection? connection;
     private Session? session;
