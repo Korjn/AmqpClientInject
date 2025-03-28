@@ -7,7 +7,7 @@ namespace Korjn.AmqpClientInject;
 /// <summary>
 /// Provides helper methods for creating AMQP messages.
 /// </summary>
-public class AmqpHelper
+public static class AmqpHelper
 {
     /// <summary>
     /// Creates a new AMQP message with the specified properties.
