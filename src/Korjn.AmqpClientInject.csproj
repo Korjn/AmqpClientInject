@@ -15,6 +15,10 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>Lightweight AMQP client integration for .NET with dependency injection support. Simplifies sender/receiver management for AMQP brokers.</Description>
+    <PackageTags>AMQP;AMQPNetLite;AMQPNetLite.Core</PackageTags> <!-- Теги для поиска -->    
+    <RepositoryUrl>https://github.com/Korjn/AmqpClientInject</RepositoryUrl> <!-- URL репозитория -->
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance> <!-- Требуется ли принятие лицензии -->
   </PropertyGroup>
 
   <ItemGroup>
