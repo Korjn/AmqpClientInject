@@ -53,6 +53,14 @@ services.AddAmqpClient("Secondary", options =>
     options.UserName = "user2";
     options.Password = "password2";
 });
+
+services.AddAmqpClient("Secondary", (options, services) =>
+{
+    options.Host = "secondary-host";
+    options.Port = 5672;
+    options.UserName = "user2";
+    options.Password = "password2";
+});
 ```
 
 ### 2. Using IAmqpClient

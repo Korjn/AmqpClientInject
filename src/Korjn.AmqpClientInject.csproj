@@ -11,7 +11,7 @@
     <PublishRelease>true</PublishRelease>
     <PackageId>Korjn.AmqpClientInject</PackageId>
     <Authors>Saken</Authors>
-    <Version>9.0.0</Version>
+    <Version>9.0.1</Version>
     <!-- <PackageLicenseExpression>MIT</PackageLicenseExpression> -->
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
