@@ -12,8 +12,7 @@
     <PackageId>Korjn.AmqpClientInject</PackageId>
     <Authors>Saken</Authors>
     <Version>9.0.1</Version>
-    <!-- <PackageLicenseExpression>MIT</PackageLicenseExpression> -->
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>    
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>Lightweight AMQP client integration for .NET with dependency injection support. Simplifies sender/receiver management for AMQP brokers.</Description>
     <PackageTags>AMQP;AMQPNetLite;AMQPNetLite.Core</PackageTags>    <!-- Теги для поиска -->
@@ -27,9 +26,8 @@
     <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.3" PrivateAssets="none" />
   </ItemGroup>
   
-  <ItemGroup>
-    <None Include="LICENSE" Pack="true" PackagePath="\"/>
-    <None Include="README.md" Pack="true" PackagePath="\"/>
+  <ItemGroup>    
+    <None Include="..\README.md" Pack="true" PackagePath=""/>
   </ItemGroup>
 
 
