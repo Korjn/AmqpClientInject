@@ -11,7 +11,7 @@
     <PublishRelease>true</PublishRelease>
     <PackageId>Korjn.AmqpClientInject</PackageId>
     <Authors>Saken</Authors>
-    <Version>9.0.1</Version>
+    <Version>9.0.2</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>    
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>Lightweight AMQP client integration for .NET with dependency injection support. Simplifies sender/receiver management for AMQP brokers.</Description>

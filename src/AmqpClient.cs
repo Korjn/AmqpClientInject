@@ -3,11 +3,13 @@ using System.Collections.Concurrent;
 using Amqp;
 using Amqp.Framing;
 using Amqp.Sasl;
+using Microsoft.Extensions.Options;
 
 namespace Korjn.AmqpClientInject;
 
-internal class AmqpClient(ILogger<IAmqpClient> logger, ConnectionOptions options) : IAmqpClient, IDisposable
+internal class AmqpClient(ILogger<IAmqpClient> logger, IOptions<AmqpConnectionOptions> _options) : IAmqpClient, IDisposable
 {
+    private readonly AmqpConnectionOptions options = _options.Value;
     private Connection? connection;
     private Session? session;
     private bool disposedValue;

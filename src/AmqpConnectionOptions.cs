@@ -3,7 +3,7 @@ namespace Korjn.AmqpClientInject;
 /// <summary>
 /// Represents connection options for an AMQP client.
 /// </summary>
-public record ConnectionOptions
+public record AmqpConnectionOptions
 {
     /// <summary>
     /// Gets or sets the host address of the AMQP broker.
